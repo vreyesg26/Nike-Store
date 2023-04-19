@@ -1,4 +1,4 @@
-# Nike Store Commerce Web Application
+# Nike Store Ecommerce
 
 ![image](https://user-images.githubusercontent.com/60959263/232983420-50a210b8-ea93-4335-bee0-59f79f26a9dd.png)
 
