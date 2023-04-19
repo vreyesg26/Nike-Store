@@ -56,7 +56,7 @@ const Cart = () => {
         >
           <CartCount totalQTY={totalQTY} onCartToggle={onCartToggle} onClearCartItems={onClearCartItems} />
           {cartItems?.length === 0 ? <CartEmpty onCartToggle={onCartToggle} /> : <div>
-            <div className="flex items-start justify-start flex-col gap-y-7 lg:gap-y-5 overflow-y-scroll h-[81vh] scroll-smooth scroll-hidden py-3">
+            <div className="flex items-start justify-start flex-col gap-y-7 lg:gap-y-5 overflow-y-scroll h-[75vh] scroll-smooth scroll-hidden py-5">
               {cartItems?.map((item, i) => (
                 <CartItem key={i} item={item} />
               ))}
@@ -68,7 +68,7 @@ const Cart = () => {
                 <h1 className="text-sm rounded bg-theme-cart text-slate-100 px-1 py-0.5">${totalAmount}</h1>
               </div>
               <div className="grid items-center gap-2">
-                <p className="text-sm font-medium text-center">Taxes and Shipping Will Calculate At Shipping</p>
+                <p className="text-sm sm:text-xs font-medium text-center">Taxes and Shipping Will Calculate At Shipping</p>
                 <button type="button" className="button-theme bg-theme-cart text-white">Check Out</button>
               </div>
             </div>
