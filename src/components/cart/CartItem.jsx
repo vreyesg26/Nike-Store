@@ -19,7 +19,7 @@ const CartItem = ({ item: { id, title, text, img, color, shadow, price, cartQuan
 
   return (
     <>
-      <div className="flex items-center justify-between w-full px-5">
+      <div className="flex items-center justify-between w-full px-5 xsm:px-4">
         <div className="flex items-center gap-5">
           <div className={`bg-gradient-to-b ${color} ${shadow} relative rounded p-3 hover:scale-105 transition-all duration-75 ease-in-out grid items-center`}>
             <img src={img} alt={`img/cart-item/${id}`} className="w-36 h-auto object-fill lg:w-28" />
