@@ -1,4 +1,7 @@
-# Nike Store Commerce Web Application
+# Nike Store Ecommerce
+
+![image](https://user-images.githubusercontent.com/60959263/232983420-50a210b8-ea93-4335-bee0-59f79f26a9dd.png)
+
 ### Important Links: 
 #### Go to ViteJS [https://vitejs.dev/] (https://vitejs.dev/)!
 #### Go to TailwindCSS [https://tailwindcss.com/](https://tailwindcss.com/)!
