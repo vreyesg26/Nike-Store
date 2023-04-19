@@ -7,7 +7,7 @@ const App = () => {
    <>
       <Navbar/>
       <Cart />
-      <main className='flex flex-col gap-48 relative'>
+      <main className='flex flex-col sm:gap-16 gap-48 relative'>
         <Hero heroapi={heroapi} />
         <Sales endpoint={popularsales} ifExists />
         <FlexContent endpoint={highlight} ifExists />
